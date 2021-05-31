@@ -1,0 +1,33 @@
+#triangle{
+    width: 0px;
+    height: 0px;
+    border-top: 50px solid red;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+}
+
+#fo{
+    height: 100px;
+    width: 200px;
+    background: yellow;
+    border-radius: 100%;
+}
+
+#vr{
+    width: 300px;
+    height: 350px;
+    background: dodgerblue;
+    border-radius: 10%;
+    padding: 15px 15px 15px 15px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+#h1{
+    color: white;
+    text-shadow: 5px 3px 5px gray;
+}
+
+#p{
+    color: white;
+}

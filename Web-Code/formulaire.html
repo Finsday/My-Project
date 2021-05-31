@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Premier Formulaire</title>
+</head>
+
+<body>
+    <h1>Votre Avis Nous Intéresse</h1>
+
+    <table width="100%">
+        <tr>
+            <td>
+                <form action="">
+                    <fieldset>
+                        <legend>Information Personnelles</legend>
+                        <ol>
+
+
+                            <li>
+                                <label for="1">Nom</label>
+                                <input type="text" id="1" required="">
+                            </li>
+                            <li>
+                                <label for="2">Date de naissance</label>
+                                <input type="date" id="2" name="" required="">
+                            </li>
+                            <li>
+                                <label for="3">Site</label>
+                                <input required type="url" name="url" id="3" placeholder="http://monsite.com"
+                                    required="">
+                            </li>
+                            <li>
+                                <label for="4">Emploi</label>
+                                <select name="Emploi" id="4" required="">
+                                    <option>Etudiant</option>
+                                    <option>Administrateur Réseau</option>
+                                    <option>Dévelopeur pour le web</option>
+                                    <option>Web designer</option>
+                                    <option>DevOps</option>
+                                </select>
+                            </li>
+                            <li>
+                                <label for="5">Approx. Salaire annuel</label>
+                                <br>
+                                <input min="0" step="1000" required type="number" id="5" name="number" placeholder="$"
+                                    required="">
+                            </li>
+
+                        </ol>
+                    </fieldset>
+            </td>
+            <td>
+                <fieldset>
+                    <legend>Information de Contact</legend>
+                    <ol>
+                        <li>
+                            <label for="6">Adresse ligne 1</label>
+                            <br>
+                            <input id="6" type="Adresse" required="">
+                        </li>
+                        <li>
+                            <label for="7">Adresse ligne 2</label>
+                            <br>
+                            <input id="7" type="Adresse" required="">
+                        </li>
+                        <li>
+                            <label for="8">Pays</label>
+                            <select name="" id="8" required="">
+                                <option>Algérie</option>
+                                <option>Maroc</option>
+                                <option>Tunisie</option>
+                            </select>
+                        </li>
+                        <li>
+                            <label for="9">Tél</label>
+                            <input id="9" name="tel" type="tel" required="" placeholder="eg: +213 67...">
+                        </li>
+                        <li>
+                            <label for="10">Courriel</label>
+                            <input id="10" type="email" required="">
+                        </li>
+
+                    </ol>
+                </fieldset>
+            </td>
+            </form>
+        </tr>
+
+
+    </table>
+
+    <h1>Préférences</h1>
+    <div>
+        <label for="col">Choisir une couleur</label>
+        <input id="col" name="" type="color" value="black" required="">
+    </div>
+    <br>
+    <div>
+        <label for="sli">Sur une échelle de 1 à 10, quel est votre degré d'enthousiasme pour HTML5?</label>
+        <input type="range" min="1" max="10" step="1" required="">
+    </div>
+    <br>
+    <div>
+        <input type="submit" name="" value="Envoyer">
+    </div>
+
+</body>
+
+</html>
